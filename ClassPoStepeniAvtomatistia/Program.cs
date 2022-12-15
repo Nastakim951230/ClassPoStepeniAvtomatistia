@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ClassPoStepeniAvtomatistia // Note: actual namespace depends on the project name.
+namespace ClassPoStepeniAvtomatistia 
 {
     internal class Program
     {
