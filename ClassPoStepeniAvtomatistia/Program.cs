@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace ClassPoStepeniAvtomatistia 
+namespace ClassPoStepeniAvtomatistia
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Program program = new Program();
             per: Console.Write("Для выбора операции нажмите \n 1)Сложение '+' \n 2)Вычитание '-'\n 3)Умножение '*' \n 4)Деление '/' \n 5)Возведение в степень '^'\n 6)Выход - 1\n");
@@ -88,9 +88,9 @@ namespace ClassPoStepeniAvtomatistia
                     {
                         try
                         {
-                            Console.WriteLine("Введите первое число: ");
+                            Console.WriteLine("Введите число: ");
                             double a = Convert.ToDouble(Console.ReadLine());
-                            Console.WriteLine("Введите второе число: ");
+                            Console.WriteLine("Введите степень: ");
                             double b = Convert.ToDouble(Console.ReadLine());
                             Console.WriteLine("{0}^{1}={2}", a, b, program.POW(a, b));
                             goto per;
